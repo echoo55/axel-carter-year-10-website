@@ -1,1 +1,29 @@
+body {
+    background-color: rgb(37,30,36); 
+    background-image: linear-gradient(to right, rgb(37, 30, 36), rgb(34, 36, 26));
+}
 
+h1 {
+    color:rgb(231, 216, 231);
+    font-family:'Trebuchet MS';
+    font-size:25px;
+}
+
+p {
+    color: rgb(255, 243, 254);
+    font-family:'Trebuchet MS';
+    font-size:20px;
+}
+
+hr {
+    color:rgb(255, 31, 255);
+}
+
+button {
+    background-color: rgb(67, 28, 94);
+    border-radius: 1px;
+    border-color: rgb(251, 234, 255);
+    color: rgb(231, 216, 231);
+    font-family: 'Trebuchet MS';
+    font-size:15px;
+}
