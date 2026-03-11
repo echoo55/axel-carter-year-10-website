@@ -1,29 +1,41 @@
 body {
-    background-color: rgb(37,30,36); 
-    background-image: linear-gradient(to right, rgb(37, 30, 36), rgb(34, 36, 26));
+    background-color: rgb(37,30,36);
+    background-image: linear-gradient(to right, rgb(37, 30, 36), rgba(34, 36, 26, 0.856));
 }
 
 h1 {
     color:rgb(231, 216, 231);
     font-family:'Trebuchet MS';
+    font-size:30px;
+}
+
+h2 {
+    color:rgb(231, 216, 231);
+    font-family:'Trebuchet MS';
     font-size:25px;
+}
+
+h6 {
+    color:rgb(133, 121, 133);
+    font-family:'Trebuchet MS';
+    font-size:12px;
 }
 
 p {
     color: rgb(255, 243, 254);
     font-family:'Trebuchet MS';
-    font-size:20px;
+    font-size:15px;
 }
 
 hr {
-    color:rgb(255, 31, 255);
+    color:rgb(255, 32, 255);
 }
 
 button {
     background-color: rgb(67, 28, 94);
-    border-radius: 1px;
-    border-color: rgb(251, 234, 255);
     color: rgb(231, 216, 231);
+    border-radius: 0px;
+    border-color: rgb(251, 234, 255);
     font-family: 'Trebuchet MS';
     font-size:15px;
 }
