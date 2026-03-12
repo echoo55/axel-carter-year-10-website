@@ -7,12 +7,26 @@ h1 {
     color:rgb(231, 216, 231);
     font-family:'Trebuchet MS';
     font-size:30px;
+    line-height: 35px;
 }
 
 h2 {
     color:rgb(231, 216, 231);
     font-family:'Trebuchet MS';
     font-size:25px;
+}
+
+h3 {
+    color:rgb(255, 209, 255);
+    font-family:'Trebuchet MS';
+    font-style: italic;
+    font-size:20px;
+}
+
+h5 {
+    color:rgb(196, 170, 196);
+    font-family:'Trebuchet MS';
+    font-size:20px;
 }
 
 h6 {
@@ -22,7 +36,7 @@ h6 {
 }
 
 p {
-    color: rgb(255, 243, 254);
+    color: rgb(255, 231, 253);
     font-family:'Trebuchet MS';
     font-size:15px;
 }
@@ -38,4 +52,8 @@ button {
     border-color: rgb(251, 234, 255);
     font-family: 'Trebuchet MS';
     font-size:15px;
+}
+
+a {
+    text-decoration-color: rgb(255, 250, 173);
 }
