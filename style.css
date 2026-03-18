@@ -1,9 +1,19 @@
-body {
+body {/* The background of the website */
     background-color: rgb(37,30,36);
     background-image: linear-gradient(to right, rgb(37, 30, 36), rgba(34, 36, 26, 0.856));
 }
 
-h1 {
+.title_bar { /* The title bar div, where everything above <hr> in body should be */ 
+    text-align: center;
+}
+
+.title_content {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+h1 { /* Easiest to read, used for the title text. */
     color:rgb(231, 216, 231);
     font-family:'Trebuchet MS';
     font-size:30px;
@@ -19,7 +29,6 @@ h2 {
 h3 {
     color:rgb(255, 209, 255);
     font-family:'Trebuchet MS';
-    font-style: italic;
     font-size:20px;
 }
 
@@ -54,6 +63,20 @@ button {
     font-size:15px;
 }
 
+.channel_image1 {
+    border-radius: 100px;
+ display: wrap;
+justify-content: flex-start;
+}
+
+.channel_image2 {
+    border-radius: 100px;
+display: wrap;
+justify-content: flex-end;
+    transform: scaleX(-1);
+}
+
 a {
     text-decoration-color: rgb(255, 250, 173);
+     color:rgb(196, 170, 196);
 }
