@@ -5,18 +5,22 @@ body {/* The background of the website */
 
 .title_bar { /* The title bar div, where everything above <hr> in body should be */ 
     text-align: center;
+    justify-content: center;
+    align-content: center;
+    
 }
 
 .title_content {
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
+    justify-content:center;
+    align-items: center;
+
 }
 
 h1 { /* Easiest to read, used for the title text. */
     color:rgb(231, 216, 231);
     font-family:'Trebuchet MS';
-    font-size:30px;
+    font-size:35px;
     line-height: 35px;
 }
 
@@ -65,18 +69,24 @@ button {
 
 .channel_image1 {
     border-radius: 100px;
+    padding: 20px;
  display: wrap;
 justify-content: flex-start;
 }
 
 .channel_image2 {
     border-radius: 100px;
+    padding: 20px;
 display: wrap;
 justify-content: flex-end;
-    transform: scaleX(-1);
+    transform: scaleX(-1); /* flip the image around */
 }
 
 a {
     text-decoration-color: rgb(255, 250, 173);
      color:rgb(196, 170, 196);
+}
+
+iframe {
+    border-radius: 20px;
 }
