@@ -1,7 +1,3 @@
-
-
-
-
 body {/* The background of the website */
     background-color: rgb(37,30,36);
     background-image: linear-gradient(to right, rgb(37, 30, 36), rgba(34, 36, 26, 0.856));
@@ -10,15 +6,44 @@ body {/* The background of the website */
 .title_bar { /* The title bar div, where everything above <hr> in body should be */ 
     text-align: center;
     justify-content: center;
-    align-content: center;
-    
+    align-items: center;
 }
 
-.title_content { /* Main content of the title bar, which would likely be the profile pictures and links.*/
+.title_links { /* Main content of the title bar, which would likely be the profile pictures and links.*/
     display: flex;
     justify-content:center;
     align-items: center;
 
+}
+
+.index_title_bar { /* Title bar div but for the home page which has a different positioning from the rest of them */ 
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
+}
+
+.index_title_links { /* Links for the title bar but for the home page */
+    display: flex;
+    position: relative;
+    transform: translate(40%);
+    
+
+}
+
+.background_dim { /* some square i found out how to make on youtube. https://www.youtube.com/watch?v=E4jjCU0ljz0 */
+    background-color: rgba(0, 0, 0, 0.301);
+    display: flex;
+    position: fixed;
+    width: 55%;
+    height: 2000px;
+    transform: translate(-10%, -5%);
+
+    
 }
 
 h1 { /* Easiest to read, used for the title text. */
