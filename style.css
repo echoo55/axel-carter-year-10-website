@@ -1,3 +1,7 @@
+
+
+
+
 body {/* The background of the website */
     background-color: rgb(37,30,36);
     background-image: linear-gradient(to right, rgb(37, 30, 36), rgba(34, 36, 26, 0.856));
@@ -10,7 +14,7 @@ body {/* The background of the website */
     
 }
 
-.title_content {
+.title_content { /* Main content of the title bar, which would likely be the profile pictures and links.*/
     display: flex;
     justify-content:center;
     align-items: center;
@@ -19,52 +23,43 @@ body {/* The background of the website */
 
 h1 { /* Easiest to read, used for the title text. */
     color:rgb(231, 216, 231);
-    font-family:'Trebuchet MS';
+   font-family: "Poppins", sans-serif;
     font-size:35px;
     line-height: 35px;
 }
 
-h2 {
+h2 { 
     color:rgb(231, 216, 231);
-    font-family:'Trebuchet MS';
+    font-family: "Poppins", sans-serif;
     font-size:25px;
 }
 
 h3 {
     color:rgb(255, 209, 255);
-    font-family:'Trebuchet MS';
+    font-family: "Poppins", sans-serif;
     font-size:20px;
 }
 
 h5 {
     color:rgb(196, 170, 196);
-    font-family:'Trebuchet MS';
+    font-family: "Poppins", sans-serif;
     font-size:20px;
 }
 
 h6 {
     color:rgb(133, 121, 133);
-    font-family:'Trebuchet MS';
+    font-family: "Poppins", sans-serif;
     font-size:12px;
 }
 
 p {
     color: rgb(255, 231, 253);
-    font-family:'Trebuchet MS';
+    font-family: "Poppins", sans-serif;
     font-size:15px;
 }
 
 hr {
     color:rgb(255, 32, 255);
-}
-
-button {
-    background-color: rgb(67, 28, 94);
-    color: rgb(231, 216, 231);
-    border-radius: 0px;
-    border-color: rgb(251, 234, 255);
-    font-family: 'Trebuchet MS';
-    font-size:15px;
 }
 
 .channel_image1 {
