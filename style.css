@@ -24,13 +24,13 @@ body {/* The background of the website */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-36.5%, -50%) 
 }
 
 .index_title_links { /* Links for the title bar but for the home page */
     display: flex;
     position: relative;
-    transform: translate(40%);
+    transform: translate(5%);
     
 
 }
